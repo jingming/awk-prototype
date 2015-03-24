@@ -8,7 +8,10 @@
   },
   "dependencies": {
     "express": "~4.9.x",
-    "mongoose": "~2.7.x"
+    "mongoose": "~2.7.x",
+    "dustjs-linkedin": "*",
+    "dustjs-helpers": "*",
+    "consolidate": "*"
   },
   "engines": {
     "node": "0.10.x"

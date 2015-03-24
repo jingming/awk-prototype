@@ -1,0 +1,15 @@
+<html>
+
+  <head>
+    <title>awk</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div>{question}</div>
+  </body>
+
+</html>
+
