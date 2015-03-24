@@ -8,6 +8,9 @@
 
   /** db initialization */
   var mongoose = require('mongoose');
+
+  console.log('mongodb://' + process.env.MONGO_USERNAME + ':' + process.env.MONGO_PASSWORD + '@' + process.env.MONGO_URL);
+
   mongoose.connect('mongodb://' + process.env.MONGO_USERNAME + ':' + process.env.MONGO_PASSWORD + '@' + process.env.MONGO_URL);
 
   console.log("init: successfully connected to mongodb");
