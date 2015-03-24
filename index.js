@@ -21,6 +21,10 @@
 
   var Question = mongoose.model('t_questions', questionSchema);
 
+  var testQuestion = new Question({
+    data: 'test question';
+  });
+
   /** dustjs initialization */
   var dust = require('dustjs-linkedin');
   dust.helpers = require('dustjs-helpers');
