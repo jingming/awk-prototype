@@ -43,6 +43,8 @@
   console.log("init: successfully set initialization requirements");
 
   app.get('/', function (request, response) {
+    console.log("Handling request: " + request);
+
     Question.findOne({}, function(error, question) {
       console.log(question);
       response.render('index', { question: question.data });
