@@ -1,0 +1,7 @@
+{
+  "name": "awk-prototype",
+  "description": "barebones prototype for the awk application",
+  "repository": "https://github.com/jingming/awk-prototype",
+  "logo": "",
+  "keywords": ["awk"]
+}
