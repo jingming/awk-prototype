@@ -22,7 +22,10 @@
   var Question = mongoose.model('t_questions', questionSchema);
 
   var testQuestion = new Question({
-    data: 'test question';
+    data: 'test question'
+  });
+  testQuestion.save(function(error) {
+    console.log(error);
   });
 
   /** dustjs initialization */
